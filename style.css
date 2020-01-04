@@ -1,0 +1,262 @@
+body , nav, header , menu, ul, .logo, .main , .nav-link{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+overflow-y:scroll;}
+ 
+  
+
+}
+
+body {
+  font-family: sans-serif;
+  background: #222;
+  
+}
+
+nav {
+  background: #222;
+  padding: 5px 20px;
+  overflow: hidden;
+  
+  
+  
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: -10px;
+  margin-bottom: 8px;
+  
+  
+}
+
+ol {
+list-style-type: none;
+border: 1px solid white;
+border-bottom: none;
+text-align: center;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: 80vw;
+ 
+}
+
+a {
+  color: white;
+  text-decoration: none; 
+}
+
+.logo {
+ text-decoration: none;
+  width: 100vw;
+  height: 30vw;
+  margin: -5px;
+  
+}
+.menu li {
+  font-size: 1.0em;
+  padding: 5px 5px;
+  white-space: nowrap;
+border-bottom: 1px solid #F26100;
+}
+
+header {
+margin: -10px;
+position: fixed;
+top: 0;
+
+
+}
+
+.main {
+  height: 1900px;
+  margin-top: 200px;
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px;
+  
+}
+
+.product {
+border: 1px solid white;
+}
+
+.level {
+  border: 1px solid white;
+  background-color: #F26100;
+}
+
+#pricing {
+align-items:center
+;
+  display: flex;
+  flex-direction: column;
+}
+/* Mobile menu */
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  
+  
+}
+
+.nav-link {
+  width: 100vw;
+  text-align: center;
+  
+  
+}
+
+
+
+
+
+/*tablet menu*/
+
+@media all and (min-width: 600px) {
+  
+.menu { 
+    justify-content: center;
+    }
+  
+  .logo {
+    flex: 1;
+    width: 100vw;
+    height: 20vw;
+    
+  }
+  
+  .nav-link {
+    width: auto;
+    display: block;
+    margin-right: 80px;
+    margin-left: 40px;
+    
+    
+    
+ 
+  }
+  
+  .menu li {
+     border: none;
+  }
+  
+  .main {
+  height: 1500px;
+  margin-top: 100px;
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px;
+  padding-top: 100px;
+   } 
+  
+  header {
+    border: 1px solid orange;
+  }
+}
+
+/* desktop menu */
+
+@media (min-width: 900px) {
+  
+  .menu {
+    
+    justify-content: left;
+    padding-top: 10px;
+    
+    
+  }
+  
+  
+  .nav-link {
+    display: block;
+    padding-right: 20px;
+    margin-right: 140px;
+    margin-left: 0px;
+  }
+  
+  .logo {
+   width: 30vw;
+   height: 8vw;
+   padding-left: 0px;
+   margin-left: -10px;
+   padding-right: 40px;
+    
+  
+  }
+  
+  .nav-link {
+  }
+  
+  nav {
+    width: 100vw;
+    margin: -10px;
+    height: 10vw;
+    border: none;
+    
+    
+    
+    
+    
+  }
+  
+  .menu li {
+    padding: 15px 10px;
+    padding-right: 0px;
+    border: none;
+    
+    
+    
+    
+  }
+  
+  .main {
+  height: 1500px;
+  margin-top: 85px;
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px;
+  padding-top: 10px;
+  
+  
+}
+  header {
+    border: 1px solid orange;
+    width: 105vw;
+    padding-right: 0px;
+    
+    
+  }
+}
+
+
+footer {
+font-size: 1.5em;
+color: white;
+background-color: rgba(40, 44, 43, 0.9);
+text-align: center;
+  font-family: 'Oswald' sans-serif;
+padding-top: 10px;}
+  
+
+.fa-twitter {
+ color: white;
+ font-family: 'Oswald' sans-serif;
+ padding: 20px;
+}
